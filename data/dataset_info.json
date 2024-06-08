@@ -2,6 +2,111 @@
   "identity": {
     "file_name": "identity.json"
   },
+  "afn":{
+    "hf_hub_url": "xinyuzhou/AFN",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+"ihs":{
+    "hf_hub_url": "xinyuzhou/IHS",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+"wcv":{
+    "hf_hub_url": "xinyuzhou/WCV",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "tct":{
+    "hf_hub_url": "xinyuzhou/TCT",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "sad":{
+    "hf_hub_url": "xinyuzhou/SAD",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "dr":{
+    "hf_hub_url": "xinyuzhou/DR",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "wce":{
+    "hf_hub_url": "xinyuzhou/WCE",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "ited":{
+    "hf_hub_url": "xinyuzhou/ITED",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "fc":{
+    "hf_hub_url": "xinyuzhou/FC",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "dreddit":{
+    "hf_hub_url": "xinyuzhou/Dreddit",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "rhmd":{
+    "hf_hub_url": "xinyuzhou/RHMD",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "tcv":{
+    "hf_hub_url": "xinyuzhou/TCV",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "xhs":{
+    "hf_hub_url": "xinyuzhou/XHS",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "se":{
+    "hf_hub_url": "xinyuzhou/SE",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "wct":{
+    "hf_hub_url": "xinyuzhou/WCT",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
   "alpaca_en_demo": {
     "file_name": "alpaca_en_demo.json"
   },

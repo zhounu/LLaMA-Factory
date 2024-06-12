@@ -9,14 +9,21 @@
       "response": "output"
     }
   },
-"ihs":{
+  "whv":{
+    "hf_hub_url": "xinyuzhou/WHV",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "ihs":{
     "hf_hub_url": "xinyuzhou/IHS",
     "columns": {
       "prompt": "instruction",
       "response": "output"
     }
   },
-"wcv":{
+  "wcv":{
     "hf_hub_url": "xinyuzhou/WCV",
     "columns": {
       "prompt": "instruction",

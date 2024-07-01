@@ -2,6 +2,13 @@
   "identity": {
     "file_name": "identity.json"
   },
+  "merged":{
+    "hf_hub_url": "xinyuzhou/merged",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
   "afn":{
     "hf_hub_url": "xinyuzhou/AFN",
     "columns": {

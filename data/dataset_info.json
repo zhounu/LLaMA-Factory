@@ -3,28 +3,49 @@
     "file_name": "identity.json"
   },
   "merged":{
-    "hf_hub_url": "xinyuzhou/merged",
+    "hf_hub_url": "xinyuzhou/merged1",
     "columns": {
       "prompt": "instruction",
       "response": "output"
     }
   },
-  "afn":{
-    "hf_hub_url": "xinyuzhou/AFN",
+  "cc":{
+    "hf_hub_url": "xinyuzhou/CC",
     "columns": {
       "prompt": "instruction",
       "response": "output"
     }
   },
-  "whv":{
-    "hf_hub_url": "xinyuzhou/WHV",
+  "CMUMC":{
+    "hf_hub_url": "xinyuzhou/CMUMC",
     "columns": {
       "prompt": "instruction",
       "response": "output"
     }
   },
-  "ihs":{
-    "hf_hub_url": "xinyuzhou/IHS",
+  "ited":{
+    "hf_hub_url": "xinyuzhou/ITED",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "ahs":{
+    "hf_hub_url": "xinyuzhou/AHS",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "phm2017":{
+    "hf_hub_url": "xinyuzhou/PHM2017",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "mat":{
+    "hf_hub_url": "xinyuzhou/MAT",
     "columns": {
       "prompt": "instruction",
       "response": "output"
@@ -39,83 +60,6 @@
   },
   "tct":{
     "hf_hub_url": "xinyuzhou/TCT",
-    "columns": {
-      "prompt": "instruction",
-      "response": "output"
-    }
-  },
-  "sad":{
-    "hf_hub_url": "xinyuzhou/SAD",
-    "columns": {
-      "prompt": "instruction",
-      "response": "output"
-    }
-  },
-  "dr":{
-    "hf_hub_url": "xinyuzhou/DR",
-    "columns": {
-      "prompt": "instruction",
-      "response": "output"
-    }
-  },
-  "wce":{
-    "hf_hub_url": "xinyuzhou/WCE",
-    "columns": {
-      "prompt": "instruction",
-      "response": "output"
-    }
-  },
-  "ited":{
-    "hf_hub_url": "xinyuzhou/ITED",
-    "columns": {
-      "prompt": "instruction",
-      "response": "output"
-    }
-  },
-  "fc":{
-    "hf_hub_url": "xinyuzhou/FC",
-    "columns": {
-      "prompt": "instruction",
-      "response": "output"
-    }
-  },
-  "dreddit":{
-    "hf_hub_url": "xinyuzhou/Dreddit",
-    "columns": {
-      "prompt": "instruction",
-      "response": "output"
-    }
-  },
-  "rhmd":{
-    "hf_hub_url": "xinyuzhou/RHMD",
-    "columns": {
-      "prompt": "instruction",
-      "response": "output"
-    }
-  },
-  "tcv":{
-    "hf_hub_url": "xinyuzhou/TCV",
-    "columns": {
-      "prompt": "instruction",
-      "response": "output"
-    }
-  },
-  "xhs":{
-    "hf_hub_url": "xinyuzhou/XHS",
-    "columns": {
-      "prompt": "instruction",
-      "response": "output"
-    }
-  },
-  "se":{
-    "hf_hub_url": "xinyuzhou/SE",
-    "columns": {
-      "prompt": "instruction",
-      "response": "output"
-    }
-  },
-  "wct":{
-    "hf_hub_url": "xinyuzhou/WCT",
     "columns": {
       "prompt": "instruction",
       "response": "output"

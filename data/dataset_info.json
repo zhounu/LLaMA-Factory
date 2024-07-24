@@ -69,5 +69,12 @@
       "prompt": "instruction",
       "response": "output"
     }
+  },
+  "XHS":{
+    "hf_hub_url": "xinyuzhou/XHS",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
   }
 }

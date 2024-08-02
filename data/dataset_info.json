@@ -1,14 +1,49 @@
 {
-  "publichealth": {
-    "hf_hub_url": "xinyuzhou/PublicHealthInstructions",
+  "public_health_openorca_train": {
+    "hf_hub_url": "xinyuzhou/PublicHealthOpenOrca",
     "columns": {
       "prompt": "instruction",
       "response": "output",
       "system": "system_prompt"
     }
   },
-  "merged":{
-    "hf_hub_url": "xinyuzhou/merged1",
+  "infoveillance_train":{
+    "hf_hub_url": "xinyuzhou/PublicHealthInfoveillance",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "ph_flashcards_train":{
+    "hf_hub_url": "xinyuzhou/PublicHealthFlashcards",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "ph_mcqa_train":{
+    "hf_hub_url": "xinyuzhou/PublicHealthMCQA",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "mental_llama_train":{
+    "hf_hub_url": "xinyuzhou/MentalLLaMASample",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "ph_pubmed_train":{
+    "hf_hub_url": "xinyuzhou/PublicHealthPubMed",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "qwen2_multilingual_train":{
+    "hf_hub_url": "xinyuzhou/BactrianXPublicHealth",
     "columns": {
       "prompt": "instruction",
       "response": "output"

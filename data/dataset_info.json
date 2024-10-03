@@ -1,4 +1,12 @@
 {
+  "mixed_chill_train": {
+    "hf_hub_url": "xinyuzhou/chill_mixed_training",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output",
+      "system": "system_prompt"
+    }
+  },
   "public_health_openorca_train": {
     "hf_hub_url": "xinyuzhou/PublicHealthOpenOrca",
     "columns": {
@@ -49,6 +57,13 @@
       "response": "output"
     }
   },
+  "mistral_nemo_multilingual_train":{
+    "hf_hub_url": "xinyuzhou/BactrianXMistralNemo",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
   "WCV":{
     "hf_hub_url": "xinyuzhou/WCV",
     "columns": {
@@ -63,8 +78,8 @@
       "response": "output"
     }
   },
-  "PHM2017":{
-    "hf_hub_url": "xinyuzhou/PHM2017",
+  "GCT":{
+    "hf_hub_url": "xinyuzhou/GCT",
     "columns": {
       "prompt": "instruction",
       "response": "output"
@@ -93,13 +108,6 @@
   },
   "TCT":{
     "hf_hub_url": "xinyuzhou/TCT",
-    "columns": {
-      "prompt": "instruction",
-      "response": "output"
-    }
-  },
-  "CMUMC":{
-    "hf_hub_url": "xinyuzhou/CMUMC",
     "columns": {
       "prompt": "instruction",
       "response": "output"

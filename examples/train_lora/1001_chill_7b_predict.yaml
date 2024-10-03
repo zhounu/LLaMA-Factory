@@ -1,0 +1,27 @@
+### model
+model_name_or_path: /data/KUZ2832/models/models--Qwen--Qwen2.5-7B-Instruct/snapshots/acbd96531cda22292a3ceaa67e984955d3965282
+adapter_name_or_path: /home/kuz2832/phs-llm/LLaMA-Factory/lora_weight/chill-7b-1001
+
+### method
+stage: sft
+do_train: false
+do_predict: true
+finetuning_type: lora
+quantization_bit: 4
+
+### dataset
+eval_dataset: WCV,ITED,TCT,CC,AHS,MAT,XHS,GCT
+template: qwen
+cutoff_len: 1024
+max_samples: 1000000
+overwrite_cache: true
+preprocessing_num_workers: 16
+
+### output
+output_dir: saves/chill-7b/lora/predict_1001_full
+overwrite_output_dir: true
+
+### eval
+do_eval: false
+predict_with_generate: true
+per_device_eval_batch_size: 1

@@ -1,0 +1,26 @@
+### model
+model_name_or_path: /data/KUZ2832/models/models--mistralai--Mistral-Nemo-Instruct-2407/snapshots/2036c14c32da982c71784315d4785195343fc639
+
+### method
+stage: sft
+do_train: false
+do_predict: true
+finetuning_type: lora
+quantization_bit: 4
+
+### dataset
+eval_dataset: WCV,ITED,TCT,CC,AHS,MAT,XHS,GCT
+template: mistral
+cutoff_len: 1024
+max_samples: 1000000
+overwrite_cache: true
+preprocessing_num_workers: 16
+
+### output
+output_dir: saves/mistral_nemo/lora/predict
+overwrite_output_dir: true
+
+### eval
+do_eval: false
+predict_with_generate: true
+per_device_eval_batch_size: 2
